@@ -24,6 +24,8 @@ body::before {
   background: linear-gradient(to right, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 0.476) , rgba(0, 0, 0, 0)), url('../img/bg3.jpg') top right no-repeat;
  
   background-size: cover;
+  background-attachment: fixed;
+  background-position:70%;
   left: 0;
   right: 0;
   top: 0;
@@ -181,7 +183,7 @@ h6 {
 
 @media (max-width: 768px) {
   body::before {
-    background: #040404 /*url("../img/bg3-1.jpg") top right no-repeat*/;
+    /* background: #040404 url("../img/bg3-1.jpg") top right no-repeat; */
   }
   #header.header-top {
     height: 60px;
@@ -605,17 +607,16 @@ section .container {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
-  padding: 10px 20px 10px 20px;
+  padding: 2% 2% 2% 2%;
   background: rgba(255, 255, 255, 0.1);
   position: relative;
-  border-radius: 6px;
+  border-radius: 3%;
   position: relative;
   z-index: 1;
 }
 .testimonials .testimonial-item img {
-  margin-left: -12px;
-  border-radius: 10px;
-  width: 300px;
+  border-radius: 3%;
+  width: 100%;
 }
 
 .testimonials .swiper-pagination {
